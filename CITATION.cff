@@ -12,6 +12,16 @@ authors:
     orcid: "https://orcid.org/0000-0001-5745-4255"
     affiliation: "Sede de Occidente, Universidad de Costa Rica"
 license: MIT
+version: "1.0.0"
+date-released: "2026-11-03"
+doi: "10.5281/zenodo.23901446"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23901446"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23901447"
+    description: "Version 1.0.0"
 repository-code: "https://github.com/tomas0821/entropy-meter"
 keywords:
   - residual entropy

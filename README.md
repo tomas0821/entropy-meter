@@ -1,5 +1,9 @@
 # entropy_meter: residual entropy of the triangular Ising antiferromagnet from a Metropolis code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23901447.svg)](https://doi.org/10.5281/zenodo.23901447)
+
+Cite as: T. Rojas Solorzano, *Entropy meter: code and data for "An entropy that does not vanish"*, version 1.0.0, Zenodo (2026), https://doi.org/10.5281/zenodo.23901447 (all versions: https://doi.org/10.5281/zenodo.23901446).
+
 Companion code to *"An entropy that does not vanish"* (T. Rojas Solorzano, in preparation for *The Physics
 Educator*). It turns a plain Metropolis Ising code into an entropy meter.
 
