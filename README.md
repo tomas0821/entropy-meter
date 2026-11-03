@@ -37,7 +37,7 @@ NumPy 2.5). `exact_refs.py` also needs SciPy and `make_figures.py` Matplotlib:
 python entropy_meter.py 12 --neq 200 --nmeas 2000           # class settings (paper Sec. 6): under a minute here, 1-2 min with the paper's Appendix code
 python entropy_meter.py 24                                   # one run, L = 24, about 2 min on one core
 python entropy_meter.py 24 --seed 2 --out results/L24_s2.json
-python entropy_meter.py 12 --J -1 --dbeta 0.0125             # ferromagnet control: S0/N -> ln(2)/N; needs the fine grid
+python entropy_meter.py 12 --J -1 --dbeta 0.0125 --neq 500   # ferromagnet control: S0/N -> ln(2)/N; needs the fine grid
 python entropy_meter.py 48 --h 1.0 --dbeta 0.05 --bmax 15    # exercise: a field removes S0
 python tests/test_entropy_meter.py                           # ~5 min
 python tests/test_exact_refs.py                              # seconds (add --full for L = 12)
@@ -108,8 +108,13 @@ python run_seeds.py --J -1 --dbeta 0.0125 --nmeas 2000 --neq 500         # FM co
 python run_seeds.py --L 48 --h 0.3 --dbeta 0.05 --bmax 15 --nmeas 5000 --neq 1000 --outdir results/field
 python run_seeds.py --L 48 --h 1.0 --dbeta 0.05 --bmax 15 --nmeas 5000 --neq 1000 --outdir results/field
 python run_seeds.py --L 12 24 --neq 200 --nmeas 2000 --outdir results/class                 # class settings
-python run_seeds.py --L 12 --J -1 --dbeta 0.0125 --neq 200 --nmeas 2000 --outdir results/class
+python run_seeds.py --L 12 --J -1 --dbeta 0.0125 --neq 200 --nmeas 2000 --outdir results/class          # too few discarded sweeps:
+python run_seeds.py --L 12 --J -1 --dbeta 0.0125 --neq 500 --nmeas 2000 --outdir results/class_fm_neq500 # use this one
 ```
+
+Class-setting results (8 seeds, mean ± SEM; exact in brackets): antiferromagnet L = 12: 0.32889 ± 0.00027
+(0.32906), L = 24: 0.32429 ± 0.00022 (0.32457); ferromagnet L = 12 with 200 discarded sweeps:
+0.00533 ± 0.00022 (0.00481, +2.4σ, not equilibrated near T_c), with 500: 0.00454 ± 0.00032 (−0.8σ).
 
 ## Licence
 MIT (see `LICENSE`).
