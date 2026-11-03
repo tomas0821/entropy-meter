@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Entropy meter: code and data for \"An entropy that does not vanish\""
+abstract: >-
+  A classroom Metropolis code turned into an entropy meter: the residual entropy of the
+  triangular Ising antiferromagnet by thermodynamic integration of the energy from infinite
+  temperature, with exact finite-lattice ground-state counts, the ferromagnet control, all
+  simulation results and the scripts that make the paper's figures.
+authors:
+  - family-names: "Rojas Solorzano"
+    given-names: "Tomás"
+    orcid: "https://orcid.org/0000-0001-5745-4255"
+    affiliation: "Sede de Occidente, Universidad de Costa Rica"
+license: MIT
+repository-code: "https://github.com/tomas0821/entropy-meter"
+keywords:
+  - residual entropy
+  - Ising model
+  - triangular antiferromagnet
+  - Monte Carlo
+  - thermodynamic integration
+  - physics education

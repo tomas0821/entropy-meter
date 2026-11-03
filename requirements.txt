@@ -1,0 +1,3 @@
+numpy>=1.22
+scipy>=1.8        # exact_refs.py only
+matplotlib>=3.5  # make_figures.py only

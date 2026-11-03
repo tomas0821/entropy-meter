@@ -1,0 +1,17 @@
+16 runs to do on 8 workers -> results/class
+L24_J1_h0_db0.1_s8.json                  S0/N = 0.32557  84 s
+L24_J1_h0_db0.1_s2.json                  S0/N = 0.32388  84 s
+L24_J1_h0_db0.1_s1.json                  S0/N = 0.32398  84 s
+L24_J1_h0_db0.1_s4.json                  S0/N = 0.32378  84 s
+L24_J1_h0_db0.1_s5.json                  S0/N = 0.32412  84 s
+L24_J1_h0_db0.1_s7.json                  S0/N = 0.32397  85 s
+L24_J1_h0_db0.1_s6.json                  S0/N = 0.32416  85 s
+L24_J1_h0_db0.1_s3.json                  S0/N = 0.32483  85 s
+L12_J1_h0_db0.1_s3.json                  S0/N = 0.32986  78 s
+L12_J1_h0_db0.1_s5.json                  S0/N = 0.32915  78 s
+L12_J1_h0_db0.1_s2.json                  S0/N = 0.32913  78 s
+L12_J1_h0_db0.1_s1.json                  S0/N = 0.32915  79 s
+L12_J1_h0_db0.1_s7.json                  S0/N = 0.32768  78 s
+L12_J1_h0_db0.1_s6.json                  S0/N = 0.32955  78 s
+L12_J1_h0_db0.1_s4.json                  S0/N = 0.32865  79 s
+L12_J1_h0_db0.1_s8.json                  S0/N = 0.32796  78 s

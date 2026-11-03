@@ -1,0 +1,4 @@
+[Sun Nov  1 23:07:18 CST 2026] batch A done; starting B (AFM dβ=0.05)
+[Mon Nov  2 00:29:31 CST 2026] B done; starting C (FM dβ=0.0125)
+[Mon Nov  2 01:34:15 CST 2026] C done; starting D (field, L=48)
+[Mon Nov  2 02:21:50 CST 2026] queue done

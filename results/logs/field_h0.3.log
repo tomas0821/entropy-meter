@@ -1,0 +1,9 @@
+8 runs to do on 10 workers -> results/field
+L48_J1_h0.3_db0.05_s8.json               S0/N = 0.00047  1426 s
+L48_J1_h0.3_db0.05_s7.json               S0/N = 0.00077  1427 s
+L48_J1_h0.3_db0.05_s6.json               S0/N = 0.00035  1429 s
+L48_J1_h0.3_db0.05_s2.json               S0/N = 0.00084  1430 s
+L48_J1_h0.3_db0.05_s3.json               S0/N = 0.00085  1432 s
+L48_J1_h0.3_db0.05_s4.json               S0/N = 0.00062  1432 s
+L48_J1_h0.3_db0.05_s1.json               S0/N = 0.00039  1433 s
+L48_J1_h0.3_db0.05_s5.json               S0/N = 0.00076  1435 s

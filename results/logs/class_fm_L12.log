@@ -1,0 +1,9 @@
+8 runs to do on 8 workers -> results/class
+L12_J-1_h0_db0.0125_s3.json              S0/N = 0.00516  715 s
+L12_J-1_h0_db0.0125_s7.json              S0/N = 0.00634  717 s
+L12_J-1_h0_db0.0125_s5.json              S0/N = 0.00537  717 s
+L12_J-1_h0_db0.0125_s6.json              S0/N = 0.00564  718 s
+L12_J-1_h0_db0.0125_s8.json              S0/N = 0.00440  719 s
+L12_J-1_h0_db0.0125_s1.json              S0/N = 0.00559  720 s
+L12_J-1_h0_db0.0125_s2.json              S0/N = 0.00554  721 s
+L12_J-1_h0_db0.0125_s4.json              S0/N = 0.00464  721 s
